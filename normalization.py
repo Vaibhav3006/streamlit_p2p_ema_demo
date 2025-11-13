@@ -126,6 +126,13 @@ def normalize_document_advanced(
     """
     exceptions: List[str] = []
 
+    fx_path = Path(fx_csv_path)
+    if not fx_path.is_absolute():
+        # assume the file is in a "Data" folder at repo root
+        fx_path = Path(__file__).parent.parent / "Data" / fx_path
+    if not fx_path.exists():
+        raise FileNotFoundError(f"FX rate file not found: {fx_path}")
+
     # === 1. Document Type and Number Normalization ===
     doc_type_raw = (doc_json.get("document_type") or "UNKNOWN").strip().upper()
     
