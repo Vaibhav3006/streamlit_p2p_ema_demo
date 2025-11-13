@@ -16,14 +16,23 @@ def make_textract_client(region_name: str = "us-east-1", profile: str | None = N
     """
     if profile:
         session = boto3.Session(profile_name=profile, region_name=region_name)
-        return session.client("textract")
+        return session.client("textract", region_name=st.secrets["AWS_REGION"],
+    aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
+    aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"]
+)
     # Allow AWS_PROFILE env var to drive the profile too
     env_profile = os.getenv("AWS_PROFILE")
     if env_profile:
         session = boto3.Session(profile_name=env_profile, region_name=region_name)
-        return session.client("textract")
+        return session.client("textract", region_name=st.secrets["AWS_REGION"],
+    aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
+    aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"]
+)
     # Default: use whatever creds are configured as 'default'
-    return boto3.client("textract", region_name=region_name)
+    return boto3.client("textract", region_name=st.secrets["AWS_REGION"],
+    aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
+    aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"]
+)
 
 def run_text_detection_local(file_path, region_name="us-east-1"):
     """
