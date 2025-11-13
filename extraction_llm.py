@@ -2,7 +2,9 @@ from openai import OpenAI
 import os
 import json
 
-os.environ["OPENAI_API_KEY"] = ""
+import streamlit as st
+
+openai.api_key = st.secrets["OPEN_API_KEY"]
 
 def extract_receipt_details(receipt_data_str):
     
