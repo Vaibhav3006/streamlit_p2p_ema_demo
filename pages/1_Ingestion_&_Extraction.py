@@ -5,6 +5,7 @@ from pathlib import Path
 from collections import Counter, defaultdict
 from datetime import datetime
 import random
+import traceback
 
 from streamlit_adapter import (
     iter_files, file_checksum, run_parallel_streaming
