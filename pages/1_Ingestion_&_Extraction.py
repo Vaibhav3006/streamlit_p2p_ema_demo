@@ -244,11 +244,13 @@ if process_btn:
             workers=workers,
             batch_size=batch_size,
         ):
+        st.write("I am in middle of progress button exec")
             if evt["event"] == "init":
                 st.session_state.total_files = evt.get("total_files", 0)
                 st.session_state.batches_total = evt.get("num_batches", 0)
                 progress_ph.progress(0, text=f"0/{st.session_state.batches_total} batches")
                 render_kpis()
+                st.write("I am in middle middle of progress button exec")
 
             elif evt["event"] == "batch_done":
                 st.session_state.kpi_accum["doc_counts"].append(evt.get("doc_counts", {}))
@@ -261,6 +263,8 @@ if process_btn:
                 append_batch_log(evt)
                 render_kpis()
                 render_batch_table()
+
+                st.write("I am in end of progress button exec")
 
                 pct = int((st.session_state.batches_done / max(st.session_state.batches_total,1)) * 100)
                 progress_ph.progress(pct/100.0, text=f"{st.session_state.batches_done}/{st.session_state.batches_total} batches")
