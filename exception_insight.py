@@ -3,8 +3,10 @@ import pandas as pd
 from typing import Callable
 import os
 from openai import OpenAI
+import openai
+import streamlit as st
 
-os.environ["OPENAI_API_KEY"] = ""
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # 1) Prompt builder for one row
 def build_exception_prompt(row: pd.Series) -> str:
