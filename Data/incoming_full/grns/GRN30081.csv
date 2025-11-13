@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30081,PO10081,Office Chair,1,1,2025-06-23
+GRN30081,PO10081,Mouse,10,10,2025-06-07
+GRN30081,PO10081,Printer,8,8,2025-11-02

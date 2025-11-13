@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30420,PO10420,Software License,8,8,2025-10-29
+GRN30420,PO10420,Mouse,9,9,2025-10-23
+GRN30420,PO10420,Server Rack,1,1,2025-10-19
+GRN30420,PO10420,Laptop,4,4,2025-07-05

@@ -1,0 +1,15 @@
+pdfplumber
+pdf2image
+pytesseract
+pillow
+camelot-py
+pandas
+rapidfuzz
+python-dateutil
+pydantic
+sqlalchemy
+pyarrow
+pymupdf
+boto3
+openai
+streamlit

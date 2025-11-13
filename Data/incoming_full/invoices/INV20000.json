@@ -1,0 +1,19 @@
+{
+  "source_file": "/Users/sakshisakshi/Desktop/EmaAssignment/p2p-demo/data/incoming/demo_data_500/invoices/INV20000.pdf",
+  "extracted_at": "2025-11-12T07:02:12.273315Z",
+  "doc_type": "Invoice",
+  "header": {
+    "doc_number": null,
+    "doc_date": null,
+    "vendor_name": null,
+    "currency": null,
+    "gross_total": null,
+    "tax_total": null,
+    "net_total": null,
+    "linked_po": null
+  },
+  "lines": [],
+  "stats": {
+    "chars": 0
+  }
+}

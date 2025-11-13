@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30018,PO10018,Monitor,4,4,2025-05-27
+GRN30018,PO10018,Firewall Appliance,1,1,2025-07-01
+GRN30018,PO10018,Server Rack,9,9,2025-09-11
+GRN30018,PO10018,Mouse,3,3,2025-10-07

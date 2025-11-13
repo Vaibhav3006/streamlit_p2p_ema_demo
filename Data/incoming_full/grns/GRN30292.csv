@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30292,PO10292,Server Rack,2,3,2025-06-29
+GRN30292,PO10292,Mouse,7,9,2025-07-04
+GRN30292,PO10292,Firewall Appliance,1,3,2025-11-02

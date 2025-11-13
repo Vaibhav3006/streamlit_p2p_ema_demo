@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30332,PO10332,Desk,5,5,2025-08-02
+GRN30332,PO10332,Office Chair,3,3,2025-08-22
+GRN30332,PO10332,Keyboard,9,9,2025-06-21
+GRN30332,PO10332,Firewall Appliance,2,2,2025-10-23

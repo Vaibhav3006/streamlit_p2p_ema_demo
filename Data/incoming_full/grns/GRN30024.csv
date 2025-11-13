@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30024,PO10024,Printer,6,6,2025-07-11
+GRN30024,PO10024,Monitor,7,7,2025-09-23
+GRN30024,PO10024,Mouse,7,7,2025-09-18

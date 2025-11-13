@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30392,PO10392,Firewall Appliance,5,5,2025-10-27
+GRN30392,PO10392,Laptop,6,6,2025-09-29
+GRN30392,PO10392,Printer,4,4,2025-05-27

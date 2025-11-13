@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30229,PO10229,Server Rack,2,2,2025-10-19
+GRN30229,PO10229,Software License,2,2,2025-07-28
+GRN30229,PO10229,Laptop,10,10,2025-10-13
+GRN30229,PO10229,Keyboard,8,8,2025-07-05

@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30455,PO10455,Server Rack,10,10,2025-06-20
+GRN30455,PO10455,Office Chair,10,10,2025-10-24
+GRN30455,PO10455,Monitor,3,3,2025-08-29

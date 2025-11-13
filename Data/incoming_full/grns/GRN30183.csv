@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30183,PO10183,Desk,2,2,2025-08-20
+GRN30183,PO10183,Server Rack,1,1,2025-08-31
+GRN30183,PO10183,Printer,4,4,2025-08-23

@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30381,PO10381,Keyboard,1,1,2025-10-14
+GRN30381,PO10381,Server Rack,7,7,2025-07-06
+GRN30381,PO10381,Firewall Appliance,2,2,2025-06-29
+GRN30381,PO10381,Printer,8,8,2025-08-02

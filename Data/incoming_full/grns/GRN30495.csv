@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30495,PO10495,Monitor,8,8,2025-09-03
+GRN30495,PO10495,Laptop,2,2,2025-06-15
+GRN30495,PO10495,Software License,3,3,2025-07-23
+GRN30495,PO10495,Firewall Appliance,2,2,2025-10-04

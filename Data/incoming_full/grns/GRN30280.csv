@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30280,PO10280,Software License,1,1,2025-07-09
+GRN30280,PO10280,Office Chair,4,4,2025-06-30
+GRN30280,PO10280,Keyboard,2,2,2025-07-11
+GRN30280,PO10280,Mouse,7,7,2025-07-23

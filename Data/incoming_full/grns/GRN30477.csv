@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30477,PO10477,Mouse,3,3,2025-08-21
+GRN30477,PO10477,Software License,8,8,2025-10-01
+GRN30477,PO10477,Laptop,10,10,2025-08-06

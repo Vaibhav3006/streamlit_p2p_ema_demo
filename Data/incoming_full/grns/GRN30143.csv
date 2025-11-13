@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30143,PO10143,Laptop,6,6,2025-10-24
+GRN30143,PO10143,Mouse,5,5,2025-11-03
+GRN30143,PO10143,Firewall Appliance,8,8,2025-10-28

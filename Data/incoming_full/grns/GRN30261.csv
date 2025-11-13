@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30261,PO10261,Printer,10,10,2025-06-14
+GRN30261,PO10261,Mouse,3,3,2025-05-17
+GRN30261,PO10261,Keyboard,4,4,2025-08-27
+GRN30261,PO10261,Firewall Appliance,7,7,2025-05-21

@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30114,PO10114,Printer,3,3,2025-06-11
+GRN30114,PO10114,Server Rack,6,6,2025-11-07
+GRN30114,PO10114,Mouse,6,6,2025-07-03
+GRN30114,PO10114,Firewall Appliance,1,1,2025-11-08

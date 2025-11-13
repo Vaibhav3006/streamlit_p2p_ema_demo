@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30473,PO10473,Software License,7,7,2025-10-04
+GRN30473,PO10473,Printer,9,9,2025-06-20
+GRN30473,PO10473,Laptop,1,1,2025-08-06
+GRN30473,PO10473,Office Chair,7,7,2025-07-24

@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30399,PO10399,Server Rack,6,6,2025-10-03
+GRN30399,PO10399,Office Chair,3,3,2025-10-02
+GRN30399,PO10399,Keyboard,10,10,2025-07-03
+GRN30399,PO10399,Software License,10,10,2025-07-17

@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30213,PO10213,Keyboard,2,2,2025-07-08
+GRN30213,PO10213,Monitor,8,8,2025-06-21
+GRN30213,PO10213,Software License,6,6,2025-08-05
+GRN30213,PO10213,Laptop,8,8,2025-10-06

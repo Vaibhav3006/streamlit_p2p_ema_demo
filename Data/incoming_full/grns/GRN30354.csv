@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30354,PO10354,Server Rack,3,3,2025-10-11
+GRN30354,PO10354,Office Chair,1,1,2025-06-14
+GRN30354,PO10354,Firewall Appliance,3,3,2025-08-30
+GRN30354,PO10354,Keyboard,5,5,2025-10-06

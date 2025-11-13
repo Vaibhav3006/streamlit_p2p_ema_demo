@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30314,PO10314,Server Rack,5,5,2025-05-31
+GRN30314,PO10314,Firewall Appliance,7,7,2025-07-16
+GRN30314,PO10314,Software License,5,5,2025-08-23
+GRN30314,PO10314,Mouse,9,9,2025-09-26

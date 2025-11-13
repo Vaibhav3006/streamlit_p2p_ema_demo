@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30090,PO10090,Server Rack,3,5,2025-06-08
+GRN30090,PO10090,Printer,7,8,2025-08-17
+GRN30090,PO10090,Firewall Appliance,3,4,2025-10-16

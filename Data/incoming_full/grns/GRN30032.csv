@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30032,PO10032,Laptop,7,7,2025-08-26
+GRN30032,PO10032,Mouse,1,1,2025-08-15
+GRN30032,PO10032,Server Rack,4,4,2025-06-01

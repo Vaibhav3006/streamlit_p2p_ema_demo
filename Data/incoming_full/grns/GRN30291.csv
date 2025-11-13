@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30291,PO10291,Server Rack,9,9,2025-07-16
+GRN30291,PO10291,Laptop,4,4,2025-09-08
+GRN30291,PO10291,Mouse,6,6,2025-09-07

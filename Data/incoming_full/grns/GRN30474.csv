@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30474,PO10474,Keyboard,2,2,2025-06-29
+GRN30474,PO10474,Mouse,9,9,2025-11-01
+GRN30474,PO10474,Server Rack,4,4,2025-06-14
+GRN30474,PO10474,Firewall Appliance,6,6,2025-11-08

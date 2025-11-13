@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30242,PO10242,Monitor,7,7,2025-05-17
+GRN30242,PO10242,Office Chair,5,5,2025-06-15
+GRN30242,PO10242,Software License,9,9,2025-06-28

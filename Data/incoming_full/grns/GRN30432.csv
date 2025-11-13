@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30432,PO10432,Firewall Appliance,1,1,2025-08-28
+GRN30432,PO10432,Keyboard,3,3,2025-08-07
+GRN30432,PO10432,Server Rack,8,8,2025-08-06

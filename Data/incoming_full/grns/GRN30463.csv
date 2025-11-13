@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30463,PO10463,Printer,2,2,2025-07-30
+GRN30463,PO10463,Office Chair,7,7,2025-07-27
+GRN30463,PO10463,Desk,5,5,2025-07-15

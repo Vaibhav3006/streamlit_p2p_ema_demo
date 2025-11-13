@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30180,PO10180,Desk,9,9,2025-06-23
+GRN30180,PO10180,Software License,6,6,2025-10-21
+GRN30180,PO10180,Printer,1,1,2025-08-25

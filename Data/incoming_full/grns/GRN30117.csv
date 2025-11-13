@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30117,PO10117,Server Rack,5,5,2025-11-02
+GRN30117,PO10117,Keyboard,9,9,2025-06-25
+GRN30117,PO10117,Software License,8,8,2025-09-26
+GRN30117,PO10117,Monitor,3,3,2025-10-13

@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30065,PO10065,Keyboard,4,4,2025-07-23
+GRN30065,PO10065,Monitor,2,2,2025-09-04
+GRN30065,PO10065,Firewall Appliance,2,2,2025-07-28

@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30351,PO10351,Printer,5,5,2025-11-04
+GRN30351,PO10351,Monitor,6,6,2025-10-11
+GRN30351,PO10351,Laptop,8,8,2025-11-11
+GRN30351,PO10351,Software License,2,2,2025-11-09

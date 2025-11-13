@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30306,PO10306,Printer,2,2,2025-08-20
+GRN30306,PO10306,Monitor,1,1,2025-09-05
+GRN30306,PO10306,Server Rack,3,3,2025-05-28

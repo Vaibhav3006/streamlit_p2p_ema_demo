@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30014,PO10014,Mouse,3,3,2025-10-29
+GRN30014,PO10014,Keyboard,4,4,2025-09-13
+GRN30014,PO10014,Server Rack,9,9,2025-05-29
+GRN30014,PO10014,Software License,7,7,2025-07-31

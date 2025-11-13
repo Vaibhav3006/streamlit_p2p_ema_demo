@@ -1,0 +1,108 @@
+invoice_number,po_number,doc_date,vendor_id,vendor_name,currency,base_currency,fx_rate_doc_to_usd,total_amount,total_amount_usd,exceptions
+not specified,not specified,2025-11-10,NOT-SPECIFIED,Not Specified,USD,USD,1,0.00,0.00,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'
+invoice_number,po_number,doc_date,vendor_id,vendor_name,currency,base_currency,fx_rate_doc_to_usd,total_amount,total_amount_usd,exceptions
+INV20025,P010025,2025-09-27,FABRICATION-GENERALE,Fabrication Generale,USD,USD,1,2385.27,2385.27,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'
+INV20031,P010031,2025-09-07,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,,3091.04,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20227,P010227,2025-06-09,ABC-TRADERS,Abc Traders,EUR,USD,,10151.58,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20233,P010233,2025-09-16,INDUSTRIAS-UNIDAS,Industrias Unidas,USD,USD,1,1565.74,1565.74,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'
+INV20179,P010179,2025-10-09,TECNOLOGIAS-AVANZADAS-SL,Tecnologias Avanzadas Sl,GBP,USD,,6219.30,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:GBP->USD@LATEST
+INV20193,P010193,2025-08-22,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,,833.46,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20178,P010178,2025-07-12,SERVICIOS-INDUSTRIALES-SA,Servicios Industriales Sa,EUR,USD,,137.90,,HEADER_TOTAL_MISMATCH: provided=137.90 computed=129.51|FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20216,P010216,2025-08-21,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,EUR,USD,,7374.44,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20438,P010438,2025-10-23,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,575.52,575.52,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'
+INV20000,P010000,2025-07-06,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,4078.00,4078.00,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'
+INV20202,P010202,2025-06-22,ACME-CORPORATION,Acme Corporation,GBP,USD,,11420.96,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:GBP->USD@LATEST
+INV20028,P010028,2025-08-09,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,GBP,USD,,1636.79,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:GBP->USD@LATEST
+invoice_number,po_number,doc_date,vendor_id,vendor_name,currency,base_currency,fx_rate_doc_to_usd,total_amount,total_amount_usd,exceptions
+not specified,not specified,2025-11-13,NOT-SPECIFIED,Not Specified,EUR,USD,,0.00,,BAD_DATE:not specified|FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+not specified,not specified,2025-11-13,NOT-SPECIFIED,Not Specified,EUR,USD,,0.00,,BAD_DATE:not specified|FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20025,P010025,2025-09-27,FABRICATION-GENERALE,Fabrication Generale,USD,USD,1,2385.27,2385.27,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'
+INV20031,P010031,2025-09-07,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,,3091.04,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20227,P010227,2025-06-09,ABC-TRADERS,Abc Traders,EUR,USD,,10151.58,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20233,P010233,2025-09-16,INDUSTRIAS-UNIDAS,Industrias Unidas,USD,USD,1,1565.74,1565.74,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'
+INV20179,P010179,2025-10-09,TECNOLOGIAS-AVANZADAS-SL,Tecnologias Avanzadas Sl,GBP,USD,,6219.30,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:GBP->USD@LATEST
+INV20193,P010193,2025-08-22,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,,833.46,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20178,P010178,2025-07-12,SERVICIOS-INDUSTRIALES-SA,Servicios Industriales Sa,EUR,USD,,137.90,,HEADER_TOTAL_MISMATCH: provided=137.90 computed=129.51|FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20438,P010438,2025-10-23,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,575.52,575.52,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'
+INV20216,P010216,2025-08-21,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,EUR,USD,,7374.44,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20202,P010202,2025-06-22,ACME-CORPORATION,Acme Corporation,GBP,USD,,11420.96,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:GBP->USD@LATEST
+INV20000,P010000,2025-07-06,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,4078.00,4078.00,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'
+INV20028,P010028,2025-08-09,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,GBP,USD,,1636.79,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/Incoming/fx_rates_sample.csv'|MISSING_FX_RATE:GBP->USD@LATEST
+invoice_number,po_number,doc_date,vendor_id,vendor_name,currency,base_currency,fx_rate_doc_to_usd,total_amount,total_amount_usd,exceptions
+INV20025,P010025,2025-09-27,FABRICATION-GENERALE,Fabrication Generale,USD,USD,1,2385.27,2385.27,
+INV20031,P010031,2025-09-07,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,3091.04,3338.32,
+INV20227,P010227,2025-06-09,ABC-TRADERS,Abc Traders,EUR,USD,1.08,10151.58,10963.71,
+INV20233,P010233,2025-09-16,INDUSTRIAS-UNIDAS,Industrias Unidas,USD,USD,1,1565.74,1565.74,
+INV20179,P010179,2025-10-09,TECNOLOGIAS-AVANZADAS-SL,Tecnologias Avanzadas Sl,GBP,USD,1.24,6219.30,7711.93,
+INV20193,P010193,2025-08-22,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,833.46,900.14,
+INV20178,P010178,2025-07-12,SERVICIOS-INDUSTRIALES-SA,Servicios Industriales Sa,EUR,USD,1.08,137.90,148.93,HEADER_TOTAL_MISMATCH: provided=137.90 computed=129.51
+INV20216,P010216,2025-08-21,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,EUR,USD,1.08,7374.44,7964.40,
+INV20438,P010438,2025-10-23,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,575.52,575.52,
+INV20202,P010202,2025-06-22,ACME-CORPORATION,Acme Corporation,GBP,USD,1.24,11420.96,14161.99,
+INV20000,P010000,2025-07-06,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,4078.00,4078.00,
+INV20028,P010028,2025-08-09,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,GBP,USD,1.24,1636.79,2029.62,
+invoice_number,po_number,doc_date,vendor_id,vendor_name,currency,base_currency,fx_rate_doc_to_usd,total_amount,total_amount_usd,exceptions
+not specified,not specified,2025-11-10,NOT-SPECIFIED,Not Specified,USD,USD,1,0.00,0.00,
+INV20025,P010025,2025-09-27,FABRICATION-GENERALE,Fabrication Generale,USD,USD,1,2385.27,2385.27,
+INV20031,P010031,2025-09-07,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,3091.04,3338.32,
+INV20233,P010233,2025-09-16,INDUSTRIAS-UNIDAS,Industrias Unidas,USD,USD,1,1565.74,1565.74,
+INV20227,P010227,2025-06-09,ABC-TRADERS,Abc Traders,EUR,USD,1.08,10151.58,10963.71,
+INV20178,P010178,2025-07-12,SERVICIOS-INDUSTRIALES-SA,Servicios Industriales Sa,EUR,USD,1.08,137.90,148.93,HEADER_TOTAL_MISMATCH: provided=137.90 computed=129.51
+INV20179,P010179,2025-10-09,TECNOLOGIAS-AVANZADAS-SL,Tecnologias Avanzadas Sl,GBP,USD,1.24,6219.30,7711.93,
+INV20193,P010193,2025-08-22,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,833.46,900.14,
+INV20438,P010438,2025-10-23,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,575.52,575.52,
+INV20216,P010216,2025-08-21,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,EUR,USD,1.08,7374.44,7964.40,
+INV20028,P010028,2025-08-09,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,GBP,USD,1.24,1636.79,2029.62,
+INV20202,P010202,2025-06-22,ACME-CORPORATION,Acme Corporation,GBP,USD,1.24,11420.96,14161.99,
+INV20000,P010000,2025-07-06,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,4078.00,4078.00,
+invoice_number,po_number,doc_date,vendor_id,vendor_name,currency,base_currency,fx_rate_doc_to_usd,total_amount,total_amount_usd,exceptions
+INV20025,P010025,2025-09-27,FABRICATION-GENERALE,Fabrication Generale,USD,USD,1,2385.27,2385.27,
+INV20031,P010031,2025-09-07,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,3091.04,3338.32,
+INV20233,P010233,2025-09-16,INDUSTRIAS-UNIDAS,Industrias Unidas,USD,USD,1,1565.74,1565.74,
+INV20227,P010227,2025-06-09,ABC-TRADERS,Abc Traders,EUR,USD,1.08,10151.58,10963.71,
+INV20179,P010179,2025-10-09,TECNOLOGIAS-AVANZADAS-SL,Tecnologias Avanzadas Sl,GBP,USD,1.24,6219.30,7711.93,
+INV20193,P010193,2025-08-22,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,833.46,900.14,
+INV20178,P010178,2025-07-12,SERVICIOS-INDUSTRIALES-SA,Servicios Industriales Sa,EUR,USD,1.08,137.90,148.93,HEADER_TOTAL_MISMATCH: provided=137.90 computed=129.51
+INV20216,P010216,2025-08-21,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,EUR,USD,,7374.44,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/incoming_sample/fx_rates_sample.csv'|MISSING_FX_RATE:EUR->USD@LATEST
+INV20438,P010438,2025-10-23,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,575.52,575.52,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/incoming_sample/fx_rates_sample.csv'
+INV20000,P010000,2025-07-06,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,4078.00,4078.00,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/incoming_sample/fx_rates_sample.csv'
+INV20202,P010202,2025-06-22,ACME-CORPORATION,Acme Corporation,GBP,USD,,11420.96,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/incoming_sample/fx_rates_sample.csv'|MISSING_FX_RATE:GBP->USD@LATEST
+INV20028,P010028,2025-08-09,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,GBP,USD,,1636.79,,FX_LOOKUP_FAILED: [Errno 2] No such file or directory: '/Users/sakshisakshi/Desktop/EmaAssignment/streamlit_demo/Data/incoming_sample/fx_rates_sample.csv'|MISSING_FX_RATE:GBP->USD@LATEST
+invoice_number,po_number,doc_date,vendor_id,vendor_name,currency,base_currency,fx_rate_doc_to_usd,total_amount,total_amount_usd,exceptions
+INV20025,P010025,2025-09-27,FABRICATION-GENERALE,Fabrication Generale,USD,USD,1,2385.27,2385.27,
+INV20031,P010031,2025-09-07,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,3091.04,3338.32,
+INV20227,P010227,2025-06-09,ABC-TRADERS,Abc Traders,EUR,USD,1.08,10151.58,10963.71,
+INV20233,P010233,2025-09-16,INDUSTRIAS-UNIDAS,Industrias Unidas,USD,USD,1,1565.74,1565.74,
+INV20193,P010193,2025-08-22,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,833.46,900.14,
+INV20179,P010179,2025-10-09,TECNOLOGIAS-AVANZADAS-SL,Tecnologias Avanzadas Sl,GBP,USD,1.24,6219.30,7711.93,
+INV20178,P010178,2025-07-12,SERVICIOS-INDUSTRIALES-SA,Servicios Industriales Sa,EUR,USD,1.08,137.90,148.93,HEADER_TOTAL_MISMATCH: provided=137.90 computed=129.51
+INV20438,P010438,2025-10-23,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,575.52,575.52,
+INV20216,P010216,2025-08-21,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,EUR,USD,1.08,7374.44,7964.40,
+INV20000,P010000,2025-07-06,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,4078.00,4078.00,
+INV20202,P010202,2025-06-22,ACME-CORPORATION,Acme Corporation,GBP,USD,1.24,11420.96,14161.99,
+INV20028,P010028,2025-08-09,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,GBP,USD,1.24,1636.79,2029.62,
+invoice_number,po_number,doc_date,vendor_id,vendor_name,currency,base_currency,fx_rate_doc_to_usd,total_amount,total_amount_usd,exceptions
+INV20025,P010025,2025-09-27,FABRICATION-GENERALE,Fabrication Generale,USD,USD,1,2385.27,2385.27,
+INV20031,P010031,2025-09-07,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,3091.04,3338.32,
+INV20227,P010227,2025-06-09,ABC-TRADERS,Abc Traders,EUR,USD,1.08,10151.58,10963.71,
+INV20233,P010233,2025-09-16,INDUSTRIAS-UNIDAS,Industrias Unidas,USD,USD,1,1565.74,1565.74,
+INV20193,P010193,2025-08-22,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,833.46,900.14,
+INV20179,P010179,2025-10-09,TECNOLOGIAS-AVANZADAS-SL,Tecnologias Avanzadas Sl,GBP,USD,1.24,6219.30,7711.93,
+INV20178,P010178,2025-07-12,SERVICIOS-INDUSTRIALES-SA,Servicios Industriales Sa,EUR,USD,1.08,137.90,148.93,HEADER_TOTAL_MISMATCH: provided=137.90 computed=129.51
+INV20438,P010438,2025-10-23,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,575.52,575.52,
+INV20216,P010216,2025-08-21,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,EUR,USD,1.08,7374.44,7964.40,
+INV20202,P010202,2025-06-22,ACME-CORPORATION,Acme Corporation,GBP,USD,1.24,11420.96,14161.99,
+INV20000,P010000,2025-07-06,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,4078.00,4078.00,
+invoice_number,po_number,doc_date,vendor_id,vendor_name,currency,base_currency,fx_rate_doc_to_usd,total_amount,total_amount_usd,exceptions
+INV20025,P010025,2025-09-27,FABRICATION-GENERALE,Fabrication Generale,USD,USD,1,2385.27,2385.27,
+INV20031,P010031,2025-09-07,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,3091.04,3338.32,
+INV20227,P010227,2025-06-09,ABC-TRADERS,Abc Traders,EUR,USD,1.08,10151.58,10963.71,
+INV20233,P010233,2025-09-16,INDUSTRIAS-UNIDAS,Industrias Unidas,USD,USD,1,1565.74,1565.74,
+INV20193,P010193,2025-08-22,FABRICATION-GENERALE,Fabrication Generale,EUR,USD,1.08,833.46,900.14,
+INV20179,P010179,2025-10-09,TECNOLOGIAS-AVANZADAS-SL,Tecnologias Avanzadas Sl,GBP,USD,1.24,6219.30,7711.93,
+INV20178,P010178,2025-07-12,SERVICIOS-INDUSTRIALES-SA,Servicios Industriales Sa,EUR,USD,1.08,137.90,148.93,HEADER_TOTAL_MISMATCH: provided=137.90 computed=129.51
+INV20438,P010438,2025-10-23,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,575.52,575.52,
+INV20216,P010216,2025-08-21,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,EUR,USD,1.08,7374.44,7964.40,
+INV20202,P010202,2025-06-22,ACME-CORPORATION,Acme Corporation,GBP,USD,1.24,11420.96,14161.99,
+INV20000,P010000,2025-07-06,DISTRIBUCIONES-NACIONALES,Distribuciones Nacionales,USD,USD,1,4078.00,4078.00,
+INV20028,P010028,2025-08-09,UNIVERSAL-SUPPLIES-INC,Universal Supplies Inc,GBP,USD,1.24,1636.79,2029.62,

@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30216,PO10216,Server Rack,6,6,2025-07-07
+GRN30216,PO10216,Laptop,4,4,2025-07-31
+GRN30216,PO10216,Keyboard,4,4,2025-07-29

@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30228,PO10228,Software License,9,9,2025-10-09
+GRN30228,PO10228,Server Rack,8,8,2025-07-04
+GRN30228,PO10228,Mouse,2,2,2025-10-01
+GRN30228,PO10228,Printer,6,6,2025-07-18

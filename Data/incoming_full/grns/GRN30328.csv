@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30328,PO10328,Firewall Appliance,8,10,2025-09-06
+GRN30328,PO10328,Keyboard,3,1,2025-08-16
+GRN30328,PO10328,Mouse,9,11,2025-11-09
+GRN30328,PO10328,Software License,4,2,2025-09-19

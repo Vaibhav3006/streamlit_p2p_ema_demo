@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30238,PO10238,Monitor,1,1,2025-07-16
+GRN30238,PO10238,Office Chair,8,8,2025-05-21
+GRN30238,PO10238,Firewall Appliance,4,4,2025-10-13
+GRN30238,PO10238,Software License,5,5,2025-06-15

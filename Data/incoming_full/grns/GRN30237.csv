@@ -1,0 +1,5 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30237,PO10237,Firewall Appliance,2,2,2025-06-02
+GRN30237,PO10237,Laptop,9,9,2025-10-02
+GRN30237,PO10237,Server Rack,10,10,2025-08-26
+GRN30237,PO10237,Software License,4,4,2025-06-20

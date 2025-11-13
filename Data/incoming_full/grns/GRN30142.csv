@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30142,PO10142,Keyboard,7,7,2025-07-25
+GRN30142,PO10142,Firewall Appliance,7,7,2025-07-13
+GRN30142,PO10142,Software License,3,3,2025-09-08

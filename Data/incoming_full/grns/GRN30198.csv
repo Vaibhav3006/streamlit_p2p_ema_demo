@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30198,PO10198,Monitor,5,5,2025-06-17
+GRN30198,PO10198,Server Rack,4,4,2025-09-26
+GRN30198,PO10198,Firewall Appliance,5,5,2025-06-30

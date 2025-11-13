@@ -1,0 +1,4 @@
+GRN_ID,PO_Number,Item,Ordered_Qty,Received_Qty,Received_Date
+GRN30431,PO10431,Desk,3,3,2025-05-21
+GRN30431,PO10431,Server Rack,1,1,2025-06-19
+GRN30431,PO10431,Software License,6,6,2025-06-21
