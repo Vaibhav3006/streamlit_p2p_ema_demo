@@ -120,7 +120,7 @@ if scan_btn:
     )
     st.session_state.dupes = dup_groups
 ## Added
-FX_RATE_FILE = Path(__file__).resolve() / "Data" / "fx_rates_sample.csv"
+FX_RATE_FILE = Path(__file__).resolve().parent.parent / "Data" / "fx_rates_sample.csv"
 
 @st.cache_data(show_spinner=False)
 def load_fx(path: Path) -> pd.DataFrame:
