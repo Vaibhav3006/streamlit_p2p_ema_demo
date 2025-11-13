@@ -6,7 +6,7 @@ from openai import OpenAI
 import openai
 import streamlit as st
 
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+api_key = st.secrets["OPENAI_API_KEY"]
 
 # 1) Prompt builder for one row
 def build_exception_prompt(row: pd.Series) -> str:
@@ -52,7 +52,7 @@ Instructions:
 # Example using OpenAI's Python client (you can replace with any LLM you use):
 #
 # from openai import OpenAI
-client = OpenAI()
+client = OpenAI(api_key=api_key)
 #
 def call_llm(prompt: str) -> str:
     resp = client.chat.completions.create(
