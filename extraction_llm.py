@@ -1,7 +1,7 @@
 from openai import OpenAI
 import os
 import json
-
+import openai
 import streamlit as st
 
 openai.api_key = st.secrets["OPEN_API_KEY"]
