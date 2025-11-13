@@ -120,18 +120,18 @@ if scan_btn:
     )
     st.session_state.dupes = dup_groups
 ## Added
-FX_RATE_FILE = Path(__file__).resolve().parent.parent / "Data" / "fx_rates_sample.csv"
+# FX_RATE_FILE = Path(__file__).resolve().parent.parent / "Data" / "fx_rates_sample.csv"
 
-@st.cache_data(show_spinner=False)
-def load_fx(path: Path) -> pd.DataFrame:
-    return pd.read_csv(path)
+# @st.cache_data(show_spinner=False)
+# def load_fx(path: Path) -> pd.DataFrame:
+#     return pd.read_csv(path)
 
-st.subheader("FX Rates (sample)")
-if FX_RATE_FILE.exists():
-    df_fx = load_fx(FX_RATE_FILE)
-    st.dataframe(df_fx, use_container_width=True, height=420)
-else:
-    st.error(f"FX file not found at: {FX_RATE_FILE}")
+# st.subheader("FX Rates (sample)")
+# if FX_RATE_FILE.exists():
+#     df_fx = load_fx(FX_RATE_FILE)
+#     st.dataframe(df_fx, use_container_width=True, height=420)
+# else:
+#     st.error(f"FX file not found at: {FX_RATE_FILE}")
 ################
 # Display counts
 if not st.session_state.file_index.empty:
