@@ -5,6 +5,13 @@ import streamlit as st
 
 st.set_page_config(page_title="P2P Demo", page_icon="🧾", layout="wide")
 
+st.sidebar.success("Select a page above ☝️")
+
+st.title("Intelligent PO & Invoice Reconciliation Demo")
+
+st.write("Use the sidebar to navigate to Ingestion, Document Viewer, Reconciliation, and Insights.")
+
+
 st.markdown("""
 <style>
 .block-container {max-width: 1800px; padding-top: 0rem; padding-bottom: 0rem;}
