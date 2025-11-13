@@ -12,4 +12,4 @@ pyarrow
 pymupdf
 boto3
 openai
-streamlit
+streamlit>=1.39.0
