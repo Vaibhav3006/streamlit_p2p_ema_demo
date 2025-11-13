@@ -205,7 +205,8 @@ def render_kpis():
 
     # Auto-match rate
     am_vals = [v for v in acc["avg_auto_match"] if v is not None]
-    kpi_placeholders["auto_match"].metric("Auto-match rate", f"{(sum(am_vals)/len(am_vals))*100:.1f}%" if am_vals else "—")
+    kpi_placeholders["auto_match"].metric("Auto-match rate", "NA")
+    # kpi_placeholders["auto_match"].metric("Auto-match rate", f"{(sum(am_vals)/len(am_vals))*100:.1f}%" if am_vals else "—")
 
     # Exceptions open
     crit = sum(acc["exceptions_critical"]) if acc["exceptions_critical"] else 0
