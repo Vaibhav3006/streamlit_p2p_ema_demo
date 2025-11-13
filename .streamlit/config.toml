@@ -1,5 +1,2 @@
 [server]
 fileWatcherType = "poll"
-
-[watcher]
-paths = []
