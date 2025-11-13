@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Mac OS metadata
+.DS_Store
+
+# Streamlit local files
+.streamlit/
+
+# Logs
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
