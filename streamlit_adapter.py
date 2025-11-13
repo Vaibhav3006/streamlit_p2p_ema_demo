@@ -223,8 +223,8 @@ def run_parallel_streaming(
             "batch_size": len(batch_files),
             "duration_s": dur,
             "doc_counts": doc_counts,  # e.g., {"PO": 10, "INV": 15, "GRN": 12}
-            "avg_ocr_confidence": float(avg_ocr) if avg_ocr == avg_ocr else None,
-            "avg_auto_match_rate": float(avg_auto) if avg_auto == avg_auto else None,
+            "avg_ocr_confidence": "NA", #float(avg_ocr) if avg_ocr == avg_ocr else None,
+            "avg_auto_match_rate": "NA", #float(avg_auto) if avg_auto == avg_auto else None,
             "exceptions_critical": int(exc_c),
             "exceptions_warning": int(exc_w),
             "processed": processed,
