@@ -6,12 +6,13 @@ import hashlib
 import math
 import pandas as pd
 
-from config import INPUT_DIRS, OUTPUT_DIR, WORKERS, BATCH_SIZE, AWS_REGION, FX_RATE_FILE
+from config import INPUT_DIRS, OUTPUT_DIR, WORKERS, BATCH_SIZE, AWS_REGION
 from extraction import process_one
 from extraction_llm import extract_receipt_details
 from normalization import normalize_document_advanced
 from final_tables import DocumentProcessor
 
+FX_RATE_FILE = Path(__file__).parent / "Data" / "fx_rates_sample.csv"
 
 def file_checksum(fp: Path, block_size: int = 65536) -> str:
     h = hashlib.md5()
