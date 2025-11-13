@@ -200,7 +200,8 @@ def render_kpis():
 
     # Avg OCR
     ocr_vals = [v for v in acc["avg_ocr"] if v is not None]
-    kpi_placeholders["avg_ocr"].metric("Avg OCR confidence", f"{(sum(ocr_vals)/len(ocr_vals))*100:.1f}%" if ocr_vals else "—")
+    kpi_placeholders["avg_ocr"].metric("Avg OCR confidence", "NA")
+    # kpi_placeholders["avg_ocr"].metric("Avg OCR confidence", f"{(sum(ocr_vals)/len(ocr_vals))*100:.1f}%" if ocr_vals else "—")
 
     # Auto-match rate
     am_vals = [v for v in acc["avg_auto_match"] if v is not None]
