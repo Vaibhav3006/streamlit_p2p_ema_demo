@@ -272,7 +272,7 @@ if process_btn:
         st.success("Processing complete.")
     except Exception as e:
         tb = traceback.format_exc()
-         st.error(tb)
+        st.error(tb)
         # st.error(f"Pipeline error: {type(e).__name__}: {e}")
        
 
