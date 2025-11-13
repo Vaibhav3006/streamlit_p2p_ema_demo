@@ -14,8 +14,8 @@ from final_tables import DocumentProcessor
 
 FX_RATE_FILE = Path(__file__).resolve() / "Data" / "fx_rates_sample.csv"
 # FX_RATE_FILE = str(Path("Data/fx_rates_sample.csv").resolve())
-INPUT_DIRS = Path(__file__).resolve() / "Data" / "incoming_sample" /
-OUTPUT_DIR = Path(__file__).resolve() / "Data" / "Output" /
+INPUT_DIRS = str(Path("Data/incoming_sample").resolve())
+OUTPUT_DIR = str(Path("Data/Output").resolve())
 
 def file_checksum(fp: Path, block_size: int = 65536) -> str:
     h = hashlib.md5()
