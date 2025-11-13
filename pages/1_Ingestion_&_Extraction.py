@@ -236,7 +236,7 @@ if process_btn:
     progress_ph.progress(0, text="Starting...")
 
     active_dirs = get_active_dirs()
-
+    st.write("I am in start of progress button exec")
     try:
         for evt in run_parallel_streaming(
             input_dirs=active_dirs,        # <— just pass the chosen root
