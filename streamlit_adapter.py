@@ -12,8 +12,8 @@ from extraction_llm import extract_receipt_details
 from normalization import normalize_document_advanced
 from final_tables import DocumentProcessor
 
-# FX_RATE_FILE = Path(__file__).parent / "Data" / "fx_rates_sample.csv"
-FX_RATE_FILE = str(Path("Data/fx_rates_sample.csv").resolve())
+FX_RATE_FILE = Path(__file__) / "Data" / "fx_rates_sample.csv"
+# FX_RATE_FILE = str(Path("Data/fx_rates_sample.csv").resolve())
 
 def file_checksum(fp: Path, block_size: int = 65536) -> str:
     h = hashlib.md5()
