@@ -4,11 +4,12 @@ import json
 import openai
 import streamlit as st
 
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+api_key = st.secrets["OPENAI_API_KEY"]
 
 def extract_receipt_details(receipt_data_str):
     
-    client = OpenAI()
+    
+    client = OpenAI(api_key=api_key)
 
     prompt = """
 System / Role Instructions
