@@ -217,7 +217,7 @@ def append_batch_log(rec):
         "Start (approx)": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"),
         "#Docs": rec["batch_size"],
         "Duration": f"{int(rec['duration_s']//60)}m{int(rec['duration_s']%60)}s",
-        "Match rate": f"{(rec['avg_auto_match_rate']*100):.0f}%" if rec["avg_auto_match_rate"] is not None else "—",
+        "Match rate": "NA", #f"{(rec['avg_auto_match_rate']*100):.0f}%" if rec["avg_auto_match_rate"] is not None else "—",
         "Exceptions": f"{rec['exceptions_critical']} crit | {rec['exceptions_warning']} warn",
         "Note": f"{' | '.join([f'{k}:{v}' for k,v in (rec['doc_counts'] or {}).items()])}"
     })
