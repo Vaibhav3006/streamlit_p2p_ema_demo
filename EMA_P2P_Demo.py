@@ -5,20 +5,7 @@ import streamlit as st
 
 st.set_page_config(page_title="P2P Demo", page_icon="🧾", layout="wide")
 
-st.sidebar.success("Select a page above ☝️")
-
 st.title("Intelligent PO & Invoice Reconciliation Demo")
-
-st.write("Use the sidebar to navigate to Ingestion, Document Viewer, Reconciliation, and Insights.")
-
-with st.sidebar:
-    st.markdown("### Pages")
-    st.page_link("EMA_P2P_Demo.py", label="Home", icon="🏠")
-    st.page_link("pages/1_Ingestion_and_Extraction.py", label="Ingestion & Extraction", icon="🧩")
-    st.page_link("pages/2_Document_Viewer.py", label="Document Viewer", icon="📄")
-    st.page_link("pages/3_Reconciliation_and_Insights.py", label="Reconciliation & Insights", icon="🧮")
-    st.page_link("pages/4_Insights.py", label="Insights", icon="💡")
-
 
 st.markdown("""
 <style>
