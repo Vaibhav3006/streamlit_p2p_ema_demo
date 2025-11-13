@@ -4,7 +4,7 @@ from typing import Callable
 import os
 from openai import OpenAI
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # 1) Prompt builder for one row
 def build_exception_prompt(row: pd.Series) -> str:

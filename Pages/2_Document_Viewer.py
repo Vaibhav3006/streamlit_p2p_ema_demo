@@ -8,7 +8,7 @@ import pandas as pd
 try:
     from config import OUTPUT_DIR as DEFAULT_OUTPUT_DIR
 except Exception:
-    DEFAULT_OUTPUT_DIR = "data/Output"
+    DEFAULT_OUTPUT_DIR = "Data/Output"
 
 st.set_page_config(page_title="Document Viewer — Transparency & Explainability", layout="wide")
 

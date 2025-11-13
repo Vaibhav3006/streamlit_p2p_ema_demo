@@ -12,6 +12,7 @@ from extraction_llm import extract_receipt_details
 from normalization import normalize_document_advanced
 from final_tables import DocumentProcessor
 
+
 def file_checksum(fp: Path, block_size: int = 65536) -> str:
     h = hashlib.md5()
     with open(fp, "rb") as f:

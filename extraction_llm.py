@@ -2,7 +2,7 @@ from openai import OpenAI
 import os
 import json
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 def extract_receipt_details(receipt_data_str):
     
