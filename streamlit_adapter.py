@@ -147,8 +147,8 @@ def run_parallel_streaming(
     #     # normalize to Paths
     #     files = [Path(f) for f in files]
 
-    files = list(iter_files(input_dirs, exts=(".pdf", ".csv")))
-    
+    # files = list(iter_files(input_dirs, exts=(".pdf", ".csv")))
+    files = [Path(f) for f in files]
 
     total = len(files)
     logger.info(f"total files: {total}")
