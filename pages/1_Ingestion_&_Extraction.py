@@ -168,7 +168,7 @@ if not st.session_state.file_index.empty:
 
     if st.session_state.dupes.empty:
         st.success("✅ No duplicates found by checksum.")
-        st.warning("Please click on "2 Process" in the sidebar to proceed...")
+        st.warning("Please click on Process button in the sidebar to proceed...")
     else:
         st.warning(f"⚠️ Duplicates found: {st.session_state.dupes['checksum_md5'].nunique()} groups")
         with st.expander("🔁 Duplicate Files (by checksum)"):
