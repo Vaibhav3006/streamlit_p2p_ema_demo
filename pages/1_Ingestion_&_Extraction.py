@@ -188,6 +188,7 @@ def docs_by_type_fixed(counter: Counter) -> str:
     return f"PO: {po} | INV: {inv} | GRN: {grn}"
 
 def render_kpis():
+    st.write("inside render kpi function")
     # aggregate from st.session_state.kpi_accum
     acc = st.session_state.kpi_accum
     # Docs by type
