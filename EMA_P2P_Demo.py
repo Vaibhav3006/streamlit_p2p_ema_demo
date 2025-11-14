@@ -5,16 +5,16 @@ import streamlit as st
 
 st.set_page_config(page_title="P2P Demo", page_icon="🧾", layout="wide")
 
-image_path = Path(__file__).parent / "ema_logo.png"
+# image_path = Path(__file__).parent / "ema_logo.png"
 
-# --- Add the image to the sidebar ---
-if image_path.exists():
-    st.sidebar.image(
-        str(image_path),
-        use_column_width=True,
-    )
-else:
-    pass
+# # --- Add the image to the sidebar ---
+# if image_path.exists():
+#     st.sidebar.image(
+#         str(image_path),
+#         use_column_width=True,
+#     )
+# else:
+#     pass
 st.title("Intelligent PO & Invoice Reconciliation Demo")
 
 st.markdown("""
