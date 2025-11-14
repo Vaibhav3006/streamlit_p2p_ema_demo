@@ -58,3 +58,4 @@ else:
 #     """, unsafe_allow_html=True)
 # else:
 #     st.empty()
+st.warning("Please click on Ingestion & Extraction in the sidebar to proceed..")
