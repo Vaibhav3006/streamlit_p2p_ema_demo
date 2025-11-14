@@ -1,6 +1,7 @@
 import boto3
 import pandas as pd
 import json
+import streamlit as st
 # 'time' is no longer needed as we aren't polling
 # 'json' might be useful for printing, but not required by the functions
 
@@ -14,22 +15,22 @@ def make_textract_client(region_name: str = "us-east-1", profile: str | None = N
     Creates a Textract client using an AWS CLI profile if provided,
     else falls back to env vars/default credentials.
     """
-    if profile:
-        session = boto3.Session(profile_name=profile, region_name=region_name)
-        return session.client("textract", region_name=st.secrets["AWS_REGION"],
-    aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
-    aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"]
-)
-    # Allow AWS_PROFILE env var to drive the profile too
-    env_profile = os.getenv("AWS_PROFILE")
-    if env_profile:
-        session = boto3.Session(profile_name=env_profile, region_name=region_name)
-        return session.client("textract", region_name=st.secrets["AWS_REGION"],
-    aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
-    aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"]
-)
+#     if profile:
+#         session = boto3.Session(profile_name=profile, region_name=region_name)
+#         return session.client("textract", region_name=st.secrets["AWS_DEFAULT_REGION"],
+#     aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
+#     aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"]
+# )
+#     # Allow AWS_PROFILE env var to drive the profile too
+#     env_profile = os.getenv("AWS_PROFILE")
+#     if env_profile:
+#         session = boto3.Session(profile_name=env_profile, region_name=region_name)
+#         return session.client("textract", region_name=st.secrets["AWS_DEFAULT_REGION"],
+#     aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
+#     aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"]
+# )
     # Default: use whatever creds are configured as 'default'
-    return boto3.client("textract", region_name=st.secrets["AWS_REGION"],
+    return boto3.client("textract", region_name=st.secrets["AWS_DEFAULT_REGION"],
     aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
     aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"]
 )
