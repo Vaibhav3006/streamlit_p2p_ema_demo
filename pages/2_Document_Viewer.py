@@ -5,10 +5,10 @@ import streamlit as st
 import pandas as pd
 
 # If you already have OUTPUT_DIR in config.py, import it; else fallback
-try:
-    from config import OUTPUT_DIR as DEFAULT_OUTPUT_DIR
-except Exception:
-    DEFAULT_OUTPUT_DIR = "Data/Output"
+# try:
+#     from config import OUTPUT_DIR as DEFAULT_OUTPUT_DIR
+# except Exception:
+DEFAULT_OUTPUT_DIR = str(Path("Data/Output").resolve())
 
 st.set_page_config(page_title="Document Viewer — Transparency & Explainability", layout="wide")
 
