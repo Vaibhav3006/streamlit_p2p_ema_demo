@@ -11,6 +11,9 @@ from streamlit_adapter import (
     iter_files, file_checksum, run_parallel_streaming
 )
 
+#INPUT_DIRS = str(Path("Data/incoming_sample").resolve())
+#OUTPUT_DIR = str(Path("Data/Output").resolve())
+
 def use_compact_metrics(value_size="1.35rem", label_size="0.80rem"):
     st.markdown(f"""
     <style>
@@ -238,7 +241,10 @@ if process_btn:
     st.session_state.batches_done = 0
     progress_ph.progress(0, text="Starting...")
 
-    active_dirs = get_active_dirs()
+    #active_dirs = get_active_dirs()
+    
+    active_dirs = str(Path("Data/incoming_sample").resolve())
+    output_dir = str(Path("Data/Output").resolve())
     # st.write("I am in start of progress button exec")
     try:
         for evt in run_parallel_streaming(
