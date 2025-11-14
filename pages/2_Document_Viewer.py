@@ -97,7 +97,7 @@ if data_root:
 
 col1, col2 = st.columns([1, 3], vertical_alignment="bottom")
 with col1:
-    doc_type = st.selectbox("Document type", options=["PO", "INV", "GRN"])
+    doc_type = st.selectbox("Document type", options=["GRN", "PO", "INV"])
 with col2:
     choices = files_map.get(doc_type, [])
     nice_names = [p.name for p in choices] if choices else []
