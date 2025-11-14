@@ -55,7 +55,7 @@ st.set_page_config(page_title="Ingestion & Extraction", layout="wide")
 dataset_mode = st.sidebar.radio(
     "Dataset",
     options=["All", "Sample Demo"],
-    index=0,
+    index=1,
 )
 
 all_root = st.sidebar.text_input(
