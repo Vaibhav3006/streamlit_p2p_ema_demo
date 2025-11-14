@@ -11,20 +11,6 @@ from streamlit_adapter import (
     iter_files, file_checksum, run_parallel_streaming
 )
 
-# from streamlit_adapter import iter_files
-
-# whatever you set as root_dir based on All/Sample
-root_dir = all_root if dataset_mode == "All" else sample_root
-
-# Convert to Path, just to be safe
-root_paths = [Path(root_dir)]
-
-files = list(iter_files(root_paths, exts=(".pdf", ".csv")))
-
-st.write("🔍 Debug – scanning from:", [str(p.resolve()) for p in root_paths])
-st.write("🔍 Debug – number of files found:", len(files))
-st.write("🔍 First 20 files:", [str(f) for f in files[:20]])
-
 #INPUT_DIRS = str(Path("Data/incoming_sample").resolve())
 #OUTPUT_DIR = str(Path("Data/Output").resolve())
 
