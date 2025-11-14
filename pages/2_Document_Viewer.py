@@ -87,7 +87,7 @@ st.subheader("Original Document")
 # Let user pick the input root (main area; no sidebar)
 data_root = st.text_input(
     "Input data root (same structure as Page 1)",
-    value=str(Path("data/incoming_sample").resolve()),
+    value=str(Path("Data/incoming_sample").resolve()),
     help="Must contain subfolders: pos/, invoices/, grns/",
 )
 
