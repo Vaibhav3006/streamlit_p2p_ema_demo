@@ -16,7 +16,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-FX_RATE_FILE = Path(__file__).resolve() / "Data" / "fx_rates_sample.csv"
+# CORRECT
+FX_RATE_FILE = Path(__file__).resolve().parent / "Data" / "fx_rates_sample.csv"
 # FX_RATE_FILE = str(Path("Data/fx_rates_sample.csv").resolve())
 #INPUT_DIRS = str(Path("Data/incoming_sample").resolve())
 #OUTPUT_DIR = str(Path("Data/Output").resolve())
