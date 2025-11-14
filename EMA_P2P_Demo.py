@@ -5,6 +5,18 @@ import streamlit as st
 
 st.set_page_config(page_title="P2P Demo", page_icon="🧾", layout="wide")
 
+image_path = Path(__file__).parent / "my_logo.png"
+
+# --- Add the image to the sidebar ---
+if image_path.exists():
+    st.sidebar.image(
+        str(image_path),
+        caption="Your Company Logo", # Optional caption
+        use_column_width=True,       # Optional: scales image to fit sidebar width
+    )
+else:
+    pass
+
 st.title("Intelligent PO & Invoice Reconciliation Demo")
 
 st.markdown("""
