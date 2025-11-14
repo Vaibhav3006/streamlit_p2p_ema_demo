@@ -77,7 +77,9 @@ with st.expander("Expected inputs (from Page 1)"):
         c.caption("✅ Found" if p.exists() else "❌ Not found")
 
 # Reconcile button in MAIN area (not sidebar)
+st.warning("Please click on the below Reconcile button to perform reconciliation")
 reconcile_clicked = st.button("🔄 Reconcile", use_container_width=True)
+
 
 # Keep results in session so they persist while you tweak
 if "recon_results_df" not in st.session_state:
