@@ -151,7 +151,7 @@ def run_parallel_streaming(
 
     # Add this block to see what files are being found 
     logger.info(f"Found {len(files)} total files. First 50 paths:") 
-    for f in files[:50]: 
+    for f in files[:100]: 
         logger.info(f" -> {f}") 
 # --- END DEBUGGING ---
 
