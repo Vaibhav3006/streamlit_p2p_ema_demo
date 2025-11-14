@@ -298,7 +298,7 @@ if process_btn:
         
         # --- 1. DEFINE YOUR OUTPUT DIRECTORY AND FILE MAPPING ---
         # This must match the output_dir used in your processing function
-        OUTPUT_DIR = "Data/Output"
+        OUTPUT_DIR = output_dir
         
         # Define the user-friendly names for your files
         file_map = {
