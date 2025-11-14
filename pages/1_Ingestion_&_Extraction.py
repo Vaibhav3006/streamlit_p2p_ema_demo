@@ -291,6 +291,7 @@ if process_btn:
                 progress_ph.progress(pct/100.0, text=f"{st.session_state.batches_done}/{st.session_state.batches_total} batches")
 
         st.success("Processing complete.")
+        st.warning("Please click on Document Viewer in the sidebar to proceed and analyze extracted and normalized outputs.")
 
         # import streamlit as st
         # import pandas as pd
