@@ -11,12 +11,10 @@ image_path = Path(__file__).parent / "ema_logo.png"
 if image_path.exists():
     st.sidebar.image(
         str(image_path),
-        caption="Your Company Logo", # Optional caption
-        use_column_width=True,       # Optional: scales image to fit sidebar width
+        use_column_width=True,
     )
 else:
     pass
-
 st.title("Intelligent PO & Invoice Reconciliation Demo")
 
 st.markdown("""
