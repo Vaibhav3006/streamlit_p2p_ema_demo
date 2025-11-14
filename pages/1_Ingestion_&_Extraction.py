@@ -292,70 +292,70 @@ if process_btn:
 
         st.success("Processing complete.")
 
-        import streamlit as st
-        import pandas as pd
-        import os
+        # import streamlit as st
+        # import pandas as pd
+        # import os
         
-        # --- 1. DEFINE YOUR OUTPUT DIRECTORY AND FILE MAPPING ---
-        # This must match the output_dir used in your processing function
-        OUTPUT_DIR = output_dir
+        # # --- 1. DEFINE YOUR OUTPUT DIRECTORY AND FILE MAPPING ---
+        # # This must match the output_dir used in your processing function
+        # OUTPUT_DIR = output_dir
         
-        # Define the user-friendly names for your files
-        file_map = {
-            "Invoice Aggregates": "inv_agg_df.csv",
-            "Invoice Lines": "inv_line_df.csv",
-            "PO Aggregates": "po_agg_df.csv",
-            "PO Lines": "po_line_df.csv",
-            "GRN Lines": "grn_line_df.csv",
-        }
+        # # Define the user-friendly names for your files
+        # file_map = {
+        #     "Invoice Aggregates": "inv_agg_df.csv",
+        #     "Invoice Lines": "inv_line_df.csv",
+        #     "PO Aggregates": "po_agg_df.csv",
+        #     "PO Lines": "po_line_df.csv",
+        #     "GRN Lines": "grn_line_df.csv",
+        # }
         
-        # --- 2. ADD THE SECTION TO DISPLAY RESULTS ---
-        st.header("📊 Processed Data Outputs")
+        # # --- 2. ADD THE SECTION TO DISPLAY RESULTS ---
+        # st.header("📊 Processed Data Outputs")
         
-        # Helper function to convert DataFrame to CSV for downloading
-        @st.cache_data
-        def convert_df_to_csv(df_to_convert):
-            """Caches the conversion of a DF to CSV."""
-            return df_to_convert.to_csv(index=False).encode('utf-8')
+        # # Helper function to convert DataFrame to CSV for downloading
+        # @st.cache_data
+        # def convert_df_to_csv(df_to_convert):
+        #     """Caches the conversion of a DF to CSV."""
+        #     return df_to_convert.to_csv(index=False).encode('utf-8')
         
-        # Find which files were actually created
-        existing_files = {
-            label: fname 
-            for label, fname in file_map.items() 
-            if os.path.exists(os.path.join(OUTPUT_DIR, fname))
-        }
+        # # Find which files were actually created
+        # existing_files = {
+        #     label: fname 
+        #     for label, fname in file_map.items() 
+        #     if os.path.exists(os.path.join(OUTPUT_DIR, fname))
+        # }
         
-        if not existing_files:
-            st.info("Processing ran, but no output files were generated in 'Data/Output'.")
-        else:
-            # Create tabs for each file that exists
-            tabs = st.tabs(existing_files.keys())
+        # if not existing_files:
+        #     st.info("Processing ran, but no output files were generated in 'Data/Output'.")
+        # else:
+        #     # Create tabs for each file that exists
+        #     tabs = st.tabs(existing_files.keys())
             
-            # Iterate over the tabs and file info
-            for tab, (label, file_name) in zip(tabs, existing_files.items()):
-                with tab:
-                    file_path = os.path.join(OUTPUT_DIR, file_name)
-                    st.subheader(label)
+        #     # Iterate over the tabs and file info
+        #     for tab, (label, file_name) in zip(tabs, existing_files.items()):
+        #         with tab:
+        #             file_path = os.path.join(OUTPUT_DIR, file_name)
+        #             st.subheader(label)
                     
-                    try:
-                        df = pd.read_csv(file_path)
+        #             try:
+        #                 df = pd.read_csv(file_path)
                         
-                        if df.empty:
-                            st.info(f"No data was generated for {label}.")
-                        else:
-                            # Display the data as an interactive table
-                            st.dataframe(df)
+        #                 if df.empty:
+        #                     st.info(f"No data was generated for {label}.")
+        #                 else:
+        #                     # Display the data as an interactive table
+        #                     st.dataframe(df)
                             
-                            # Add the download button
-                            st.download_button(
-                                label=f"Download {file_name}",
-                                data=convert_df_to_csv(df),
-                                file_name=file_name,
-                                mime='text/csv',
-                            )
+        #                     # Add the download button
+        #                     st.download_button(
+        #                         label=f"Download {file_name}",
+        #                         data=convert_df_to_csv(df),
+        #                         file_name=file_name,
+        #                         mime='text/csv',
+        #                     )
                             
-                    except Exception as e:
-                        st.error(f"Failed to read or display {file_name}: {e}")
+        #             except Exception as e:
+        #                 st.error(f"Failed to read or display {file_name}: {e}")
     except Exception as e:
         tb = traceback.format_exc()
         st.error(tb)
