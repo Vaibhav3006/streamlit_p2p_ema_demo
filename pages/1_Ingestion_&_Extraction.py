@@ -243,13 +243,17 @@ if process_btn:
 
     #active_dirs = get_active_dirs()
     
-    # active_dirs = str(Path("Data/incoming_sample").resolve())
-    # output_dir = str(Path("Data/Output").resolve())
+    active_dirs = str(Path("Data/incoming_sample").resolve())
+    output_dir = str(Path("Data/Output").resolve())
+
+    st.write(active_dirs)
 
     BASE_DIR = Path(__file__).resolve().parent.parent  # folder containing this .py file
     DATA_DIR = BASE_DIR / "Data"
 
     active_dirs = str(DATA_DIR / "incoming_sample")
+
+    st.write(active_dirs)
     output_dir = str(DATA_DIR / "Output")
     
     # st.write("I am in start of progress button exec")
