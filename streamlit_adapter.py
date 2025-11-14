@@ -148,6 +148,13 @@ def run_parallel_streaming(
     #     files = [Path(f) for f in files]
 
     files = list(iter_files(input_dirs, exts=(".pdf", ".csv")))
+
+    # Add this block to see what files are being found 
+    logger.info(f"Found {len(files)} total files. First 50 paths:") 
+    for f in files[:50]: 
+        logger.info(f" -> {f}") 
+# --- END DEBUGGING ---
+
     # files = [Path(f) for f in files]
 
     total = len(files)
