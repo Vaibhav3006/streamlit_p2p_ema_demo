@@ -194,3 +194,5 @@ with tabs[1]:
         st.dataframe(st.session_state.exceptions_df, use_container_width=True, height=420)
     else:
         st.info("Run reconciliation to see exceptions here.")
+
+st.warning("Please click on Insights in the sidebar to view insights and audit log for unmatched POs and Invoices.")
