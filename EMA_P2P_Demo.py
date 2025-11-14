@@ -5,7 +5,7 @@ import streamlit as st
 
 st.set_page_config(page_title="P2P Demo", page_icon="🧾", layout="wide")
 
-image_path = Path(__file__).parent / "my_logo.png"
+image_path = Path(__file__).parent / "ema_logo.png"
 
 # --- Add the image to the sidebar ---
 if image_path.exists():
