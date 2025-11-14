@@ -11,5 +11,6 @@ sqlalchemy
 pyarrow
 pymupdf
 boto3
-openai
+openai>=1.35.0
 streamlit>=1.39.0
+httpx
