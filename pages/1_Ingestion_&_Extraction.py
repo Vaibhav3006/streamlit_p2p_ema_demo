@@ -48,6 +48,20 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+image_path = Path(__file__).resolve().parent.parent / "ema_logo.png"
+
+# --- 2. Create Columns for Logo and Title ---
+# col1, col2 = st.columns([1, 6]) # Adjust ratio [1, 6] as needed
+col1, col2 = st.columns(2)
+
+
+# --- 3. Add Logo to First Column ---
+if image_path.exists():
+    with col1:
+        st.image(str(image_path), width=100) # Adjust width as needed
+else:
+    with col1:
+        pass # Or just pass
 
 st.set_page_config(page_title="Ingestion & Extraction", layout="wide")
 
