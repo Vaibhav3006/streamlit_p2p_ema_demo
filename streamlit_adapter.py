@@ -12,6 +12,10 @@ from extraction_llm import extract_receipt_details
 from normalization import normalize_document_advanced
 from final_tables import DocumentProcessor
 
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 FX_RATE_FILE = Path(__file__).resolve() / "Data" / "fx_rates_sample.csv"
 # FX_RATE_FILE = str(Path("Data/fx_rates_sample.csv").resolve())
 #INPUT_DIRS = str(Path("Data/incoming_sample").resolve())
@@ -134,9 +138,7 @@ def run_parallel_streaming(
     output_dir = output_dir or OUTPUT_DIR
     workers = workers or WORKERS
     batch_size = batch_size or BATCH_SIZE
-    print("1")
-    print(input_dirs)
-    print(output_dir)
+    
     # if files is None:
     #     files = list(iter_files(input_dirs, exts=(".pdf", ".csv")))
     # else:
@@ -144,8 +146,10 @@ def run_parallel_streaming(
     #     files = [Path(f) for f in files]
 
     files = list(iter_files(input_dirs, exts=(".pdf", ".csv")))
+    
 
     total = len(files)
+    logger.info(f"total files: {total}")
     if total == 0:
         yield {"event": "init", "total_files": 0}
         return
