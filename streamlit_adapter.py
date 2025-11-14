@@ -138,6 +138,8 @@ def run_parallel_streaming(
     output_dir = output_dir or OUTPUT_DIR
     workers = workers or WORKERS
     batch_size = batch_size or BATCH_SIZE
+
+    logger.info(f"input directory: {input_dirs}")
     
     # if files is None:
     #     files = list(iter_files(input_dirs, exts=(".pdf", ".csv")))
