@@ -243,8 +243,15 @@ if process_btn:
 
     #active_dirs = get_active_dirs()
     
-    active_dirs = str(Path("Data/incoming_sample").resolve())
-    output_dir = str(Path("Data/Output").resolve())
+    # active_dirs = str(Path("Data/incoming_sample").resolve())
+    # output_dir = str(Path("Data/Output").resolve())
+
+    BASE_DIR = Path(__file__).resolve().parent  # folder containing this .py file
+    DATA_DIR = BASE_DIR / "Data"
+
+    active_dirs = str(DATA_DIR / "incoming_sample")
+    output_dir = str(DATA_DIR / "Output")
+    
     # st.write("I am in start of progress button exec")
     try:
         for evt in run_parallel_streaming(
