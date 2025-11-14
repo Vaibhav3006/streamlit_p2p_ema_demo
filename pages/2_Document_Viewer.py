@@ -213,3 +213,5 @@ with tabs[4]:
         st.dataframe(grn_line.drop_duplicates().reset_index(drop=True), use_container_width=True, height=360)
     else:
         st.info("grn_line_df.csv not found or empty.")
+
+st.warning("Please click on Reconciliation in the sidebar to proceed with automated 3-way reconciliation.")
