@@ -149,6 +149,9 @@ def run_parallel_streaming(
 
     # files = list(iter_files(input_dirs, exts=(".pdf", ".csv")))
 
+    paths_to_scan = [input_dirs] if isinstance(input_dirs, (str, Path)) else input_dirs
+    files = list(iter_files(paths_to_scan, exts=(".pdf", ".csv")))
+
     # Add this block to see what files are being found 
     logger.info(f"Found {len(files)} total files. First 50 paths:") 
     for f in files[:100]: 
@@ -157,8 +160,7 @@ def run_parallel_streaming(
 
     # files = [Path(f) for f in files]
 
-    paths_to_scan = [input_dirs] if isinstance(input_dirs, (str, Path)) else input_dirs
-    files = list(iter_files(paths_to_scan, exts=(".pdf", ".csv")))
+  
 
     total = len(files)
     logger.info(f"total files: {total}")
